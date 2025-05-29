@@ -1,0 +1,29 @@
+# Modules & Key Skills Demonstrated:
+1. Data Collection (Web Scraping / APIs)
+  - Libraries: requests, BeautifulSoup, Selenium, aiohttp(async)
+  - Use pagination, headers, and error handling to simulate human browsing
+  - Alternative: Use public APIs (e.g., adzuna, Remote OK API)
+2. Data Storage
+  - Save data in JSON or CSV format
+  - Optionally use sqlite3 or SQLAlchemy for a local SQL database
+3. Data Cleaning and Analysis
+  - Libraries: pandas, numpy, re
+  - Clean HTML tags, normalize job titles, extract skill mentions
+  - Aggregate and filter by:
+    - Location (Remote, US only)
+    - Role (e.g., "Python Developer")
+    - Skills (frequency of terms like "Flask", "AWS", etc.)
+4. Data Visualization
+  - Libraries: matplotlib, seaborn, or plotly
+  - Generate charts:
+    - Top 10 skills in demand
+    - Job counts by title or company
+    - Salary range histograms (if available)
+5. Optional: NLP Classification or Clustering
+  - Libraries: nltk, spaCy, or scikit-learn
+  - Identify themes or cluster job descriptions
+  - Sentiment analysis of job postings (tone, inclusivity)
+6. (Optional) Frontend or CLI Interface
+  - CLI: Use argparse or click to allow users to choose filters
+  - Web App: Use Flask or Streamlit to present a dashboard
+  - Export results as downlaodable Excel/CSV files
