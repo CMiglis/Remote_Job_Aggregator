@@ -101,4 +101,4 @@ python -m unittest discover -s test -p "test_*.py"
 
 ## 📄 License
 
-MIT License (planned — update when published on GitHub).
+MIT License.
