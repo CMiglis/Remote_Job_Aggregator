@@ -1,7 +1,14 @@
 # Objectives
 
-1. Extract data using APIs and/or web scraping
-2. Store data efficiently using a structured format (JSON, CSV, etc.)
-3. Analyze the data to extract meaningful insights
-4. Visualize the results using plots or dashboards
-5. Use NLP to parse and classify job descriptions
+## ✅ Completed Objectives
+1. Extract data using APIs (USAJOBS API integration)
+2. Store data efficiently in JSON format
+3. Analyze the data using a structured module (`fetcher.py`)
+4. Write unit tests for API call validation
+
+## 🛠️ Planned Objectives
+1. Add web scraping support for job boards that lack APIs
+2. Extend data storage to include CSV export
+3. Build visualizations using plots or dashboards
+4. Use NLP techniques to parse and classify job descriptions
+5. Filter and rank jobs based on user-defined preferences (e.g., salary, remote, keywords)
